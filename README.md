@@ -14,9 +14,19 @@ Run `npm install` (or `npm i` for the short version) to install the dev dependen
 
 ## Tests
 
-Run `npm test` (or `npm t` for the short version) to run the test in headless mode.
+You can run the tests simulating a desktop or mobile viewport.
 
-Or, run `npm run cy:open` to open Cypress in interactive mode.
+### Desktop
+
+Run `npm test` (or `npm t` for the short version) to run the test in headless mode on a desktop viewport.
+
+Or, run `npm run cy:open` to open Cypress in interactive mode on a desktop viewport.
+
+### Mobile
+
+Run `npm run test:mobile` to run the test in headless mode on a mobile viewport.
+
+Or, run `npm run cy:open:mobile` to open Cypress in interactive mode on a desktop viewport on a mobile viewport.
 
 ## Support this project
 
